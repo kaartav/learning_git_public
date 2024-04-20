@@ -26,7 +26,7 @@ def evaluate_model(y_true, y_pred):
     }
 
     return evaluation_metrics
-
+## hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
 def decision_tree_model(df, dep_variable ,test_size=0.2, random_state=42):
     # scaler = MinMaxScaler()
     # df['Age of Mother'] = scaler.fit_transform(df[['Age of Mother']]) NOT needed as decision trees
